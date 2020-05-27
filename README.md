@@ -27,7 +27,7 @@ The dataset includes 14 sensors (see Table 1 for the details) during natural hum
 ![](https://github.com/BiDAlab/HuMIdb/blob/master/Table_1.png)  
 Table 1. Description of all sensor signals captured in HuMIdb. E=Event-based acquisition. The timestamp parameter is captured for all sensors.
 
-Fig. 1 shows all tasks included in the HuMIdb. The task *a* s designed to acquire keystroking from fixed and free text. In tasks *b* and *d*, the users have to perform both swipe up and swipe down gestures to complete both tasks, meanwhile the task *c* is focused on tap gestures. Tasks *e* and *f* are designed to draw in the air with the smartphone a circle and a cross respectively. Task *g* records the user saying *‘I am not a robot’*, and finally, in task *h* the user has to draw with the finger the digits 0 to 9 over the touchscreen. Note that the 14 sensors available (see Table 1) are acquired during the execution of all tasks, although some sensors present a key role in some of them. For example, the accelerometer signal is captured during the entire session even though it could be more relevant in tasks *e* and *f*. This heterogeneous information can be used to improve the patterns obtained from the main sensor for each task. Additionally, all tasks have a right swipe button that is acquired in addition to the swipe patterns. 
+Fig. 1 shows all tasks included in the HuMIdb. The task *a* is designed to acquire keystroking from fixed and free text. In tasks *b* and *d*, the users have to perform both swipe up and swipe down gestures to complete both tasks, meanwhile the task *c* is focused on tap gestures. Tasks *e* and *f* are designed to draw in the air with the smartphone a circle and a cross respectively. Task *g* records the user saying *‘I am not a robot’*, and finally, in task *h* the user has to draw with the finger the digits 0 to 9 over the touchscreen. Note that the 14 sensors available (see Table 1) are acquired during the execution of all tasks, although some sensors present a key role in some of them. For example, the accelerometer signal is captured during the entire session even though it could be more relevant in tasks *e* and *f*. This heterogeneous information can be used to improve the patterns obtained from the main sensor for each task. Additionally, all tasks have a right swipe button that is acquired in addition to the swipe patterns. 
 
 ![](https://github.com/BiDAlab/HuMIdb/blob/master/Figure_1.png)
 
@@ -45,7 +45,7 @@ Fig. 2 shows an example of the handwriting task (for digit “5”) and the info
 ![](https://github.com/BiDAlab/HuMIdb/blob/master/Figure_2.png)  
 Figure 2. Full set of data generated during one of the HuMIdb task.
 
-#### BENCHMARK STRUCTURE
+#### HuMIdb STRUCTURE
 BeCAPTCHA-Mouse benchmark are composed by two main folders: *'DB_GAN'* which contains the synthetic GAN trayectories and *'DB_fnc'* that contains the function-based ones. Each main folder has other two folders: *'raw'* folder which contains the raw data of the synthetic mouse trayectories in .txt files, and *'neuromotor'* folder that contains the Sigma-Lognormal descomposition (more details in [3]) of the raw files in .ana format. Both kind of files have the same name to match them easily.
 
 #### FILES FORMAT
