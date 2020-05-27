@@ -40,7 +40,10 @@ The acquisition protocol comprises 5 sessions with at least 1 day gap among them
 Regarding the age distribution, 25.6% of the users were younger than 20 years old, 49.4% are between 20 and 30 years old, 19.2% between 30 and 50 years old, and the remaining 5.8% are older than 50 years old. Regarding the gender, 66.5% of the participants were males, 32.8% females, and 0.7% others. Participants performed the tasks from 14 different countries (52.2%/47.0%/0.8% are European, American, and Asian respectively) using 179 different devices.
 Fig. 1 shows an example of the handwriting task (for digit “5”) and the information collected during the task. Note how a simple task can generate a heterogeneous flow of information related with the user behavior: the way the user holds the device, the power and velocity of the gesture, the place, etc.
 
+Fig. 2 shows an example of the handwriting task (for digit “5”) and the information collected during the task. Note how a simple task can generate a heterogeneous flow of information related with the user behavior: the way the user holds the device, the power and velocity of the gesture, the place, etc.
 
+![](https://github.com/BiDAlab/HuMIdb/blob/master/Figure_2.png)  
+Figure 2. Full set of data generated during one of the HuMIdb task.
 
 #### BENCHMARK STRUCTURE
 BeCAPTCHA-Mouse benchmark are composed by two main folders: *'DB_GAN'* which contains the synthetic GAN trayectories and *'DB_fnc'* that contains the function-based ones. Each main folder has other two folders: *'raw'* folder which contains the raw data of the synthetic mouse trayectories in .txt files, and *'neuromotor'* folder that contains the Sigma-Lognormal descomposition (more details in [3]) of the raw files in .ana format. Both kind of files have the same name to match them easily.
