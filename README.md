@@ -1,13 +1,13 @@
 # HuMIdb dataset (Human Mobile Interaction database)
-BeCAPTCHA-Mouse Benchmark for development of bot detection technologyes based on mouse dynamics.
+HuMIdb dataset, a novel multimodal mobile database that comprises more than 5 GB from a wide range of mobile sensors acquired under unsupervised scenario.
 
-## INSTRUCTIONS FOR DOWNLOADING BeCAPTCHA-Mouse Benchmark
-1) [Download license agreement](http://atvs.ii.uam.es/atvs/licenses/BeCAPTCHA_Mouse_Benchmark.pdf), send by email one signed and scanned copy to **atvs@uam.es** according to the instructions given in point 2.
+## INSTRUCTIONS FOR DOWNLOADING HuMIdb dataset
+1) [Download license agreement](http://atvs.ii.uam.es/atvs/licenses/HuMIdb_license_agreement.pdf), send by email one signed and scanned copy to **atvs@uam.es** according to the instructions given in point 2.
  
  
 2) Send an email to **atvs@uam.es**, as follows:
 
-   *Subject:* **[DATABASE benchmark: BeCAPTCHA_Mouse_Benchmark]**
+   *Subject:* **[DATABASE: HuMIdb dataset]**
 
    Body: Your name, e-mail, telephone number, organization, postal mail, purpose for which you will use the database, time and date at which you sent the email with the signed license agreement.
  
@@ -15,34 +15,22 @@ BeCAPTCHA-Mouse Benchmark for development of bot detection technologyes based on
 3) Once the email copy of the license agreement has been received at ATVS, you will receive an email with a username, a password, and a time slot to download the database.
  
 
-4) [Download the benchmark](http://atvs.ii.uam.es/atvs/intranet/BeCAPTCHA_Mouse_Benchmark), for which you will need to provide the authentication information given in step 4. After you finish the download, please notify by email to **atvs@uam.es** that you have successfully completed the transaction.
+4) [Download the DATASET](http://atvs.ii.uam.es/atvs/intranet/HuMIdb), for which you will need to provide the authentication information given in step 4. After you finish the download, please notify by email to **atvs@uam.es** that you have successfully completed the transaction.
  
 
 5) For more information, please contact: **atvs@uam.es**
 
 
-## DESCRIPTION OF BeCAPTCHA-Mouse BENCHMARK
-BeCAPTCHA-Mouse benchmark contains more than 10K synthetic mouse trayectories generated with two methods: 
+## DESCRIPTION OF HuMIdb DATASET
+The dataset includes 14 sensors (see Table 1 for the details) during natural human-mobile interaction performed by more than 600 users. For the acquisition, we implemented an Android application that collects the sensor signals while the users complete 8 simple tasks with their own smartphones and without any supervision whatsoever (i.e., the users could be standing, sitting, walking, indoors, outdoors, at daytime or night, etc.). The acquisition app was launched on Google Play Store and advertised in our research web site and various research mailing lists. After that, the participants were self-selected around the globe producing more varied participants than previous state-of-the-art mobile databases. All data captured in this database have been stored in private servers and anonymized with previous participant consent according to the GDPR (General Data Protection Regulation).
 
-**Method 1: Function-based Mouse Trajectory Synthesis**  
-With this approach the mouse trajectories are generated according to three different trajectory shapes (linear, quadratic, and exponential) and three different velocity profiles (constant, logarithmic, and Gaussian). 
-To generate a synthetic trajectory **{x̂, ŷ}** with *M* points, first we define the initial point [*x̂<sub>1</sub>, ŷ<sub>1</sub>*] and ending point [*x̂<sub>M</sub>, ŷ<sub>M</sub>*]. Second, we select one of three velocity profiles: *i)* constant velocity, where the distance between adjacent points is constant; *ii)* logarithmic velocity, where the distances are gradually increasing (acceleration); and *iii)* Gaussian velocity, in which the distances first increase and then decrease when they get close to the end of the trajectory (acceleration and deceleration). Third, we generate a sequence **x̂** between *x̂<sub>1</sub>* and *x̂<sub>M</sub>* spaced according to the selected velocity profile. The **ŷ** sequence is then generated according to the shape function. For example, for a shape defined by the quadratic function *ŷ = ax̂<sup>2</sup> + bx̂ + c*, we fit *b* and *c* for *a* fixed value of *a* by using the initial and ending points. We repeat the process fixing either *b* or *c*. The range of the parameters {*a, b, c*} explored is determined by analyzing real
-mouse movements fitted to quadratic functions. Linear and exponential shapes are generated similarly.  
-Fig. 1 (trajectories D, E, and F) shows some examples of these mouse trajectories synthesized. That figure also shows the 3 diferent velocity profiles considered: the 3 trajectories in *E* have constant velocity, *F* shows acceleration (the distance between adjacent samples increases gradually), and *D* has initial acceleration and final deceleration. We can generate infinite mouse trajectories
-with this approach by varying the parameters of each function.
+Fig. 1 shows all tasks included in the HuMIdb. The task a is designed to acquire keystroking from fixed and free text. In tasks b and d, the users have to perform both swipe up and swipe down gestures to complete both tasks, meanwhile the task c is focused on tap gestures. Tasks e and f are designed to draw in the air with the smartphone a circle and a cross respectively. Task g records the user saying ‘I am not a robot’, and finally, in task h the user has to draw with the finger the digits 0 to 9 over the touchscreen. Note that the 14 sensors available (see Section 3) are acquired during the execution of all tasks, although some sensors present a key role in some of them. For example, the accelerometer signal is captured during the entire session even though it could be more relevant in tasks e and f. This heterogeneous information can be used to improve the patterns obtained from the main sensor for each task. Additionally, all tasks have a right swipe button that is acquired in addition to the swipe patterns. 
 
-![](https://github.com/BiDAlab/BeCAPTCHA-Mouse/blob/master/Fig5.png)
-Figure 1. Examples of mouse trajectories and their velocity profiles employed in this work: *A* is a real one extracted from a task of the database; *B* and *C* are synthetic trajectories generated with the GAN network; *D*, *E* and *F* are generated with the knowledge-based approach. Note that for each velocity profile (*D* = Gaussian, *E* = constant, *F* = logarithmic), we include the three knowledge-based trajectories (linear, quadratic, and exponential).
+The acquisition protocol comprises 5 sessions with at least 1 day gap among them. It is important to highlight that in all sessions, the 1-day gap refers to the minimum time between one user ﬁnishes a session and the next time the app allows to have the next session. At the beginning of each task, the app shows a brief pop-up message explaining the procedure to complete each task. The application also captures the orientation (landscape/portrait) of the smartphone, the screen size, resolution, the model of the device, and the date when the session was captured.
 
-**Method 2: GAN-based Trajectories**  
-For this approach we employ a GAN (Generative Adversarial Network),in which two neuronal networks, commonly named Generator and Discriminator, are trained one against the other (thus the \adversarial"). The architecture of the GAN is depicted in Fig. 2.
+Regarding the age distribution, 25.6% of the users were younger than 20 years old, 49.4% are between 20 and 30 years old, 19.2% between 30 and 50 years old, and the remaining 5.8% are older than 50 years old. Regarding the gender, 66.5% of the participants were males, 32.8% females, and 0.7% others. Participants performed the tasks from 14 different countries (52.2%/47.0%/0.8% are European, American, and Asian respectively) using 179 different devices.
+Fig. 1 shows an example of the handwriting task (for digit “5”) and the information collected during the task. Note how a simple task can generate a heterogeneous flow of information related with the user behavior: the way the user holds the device, the power and velocity of the gesture, the place, etc.
 
-![](https://github.com/BiDAlab/BeCAPTCHA-Mouse/blob/master/Fig6.png)
-Figure 2. The proposed architecture to train a GAN Generator of synthetic mouse trajectories.The Generator learns the human features of the mouse trajectories and generate human-like ones from Gaussian Noise.
-
-The aim of the Generator is to fool the Discriminator by generating synthetic mouse trajectories very similar to the real ones, while the Discriminator has to predict whether the sample comes from the real set or is a fake created by the Generator. Once the Generator is trained this way, then we can use it to synthesize mouse trajectories very similar to the human ones.
-Fig. 1 shows two examples (trajectories B and C) of synthetic mouse trajectories generated with the GAN network and the comparison with a real one.  
-The human mouse trajectories employed to train the GAN network were extracted from Chao *et al.* [2] database, which is comprised of more than 200K mouse trajectories acquired from 58 users who completed 300 repetitions of the task.In each repetition, the task was to click 8 buttons that appeared in the screen sequentially. This task was repeated twice in each session
 
 
 #### BENCHMARK STRUCTURE
