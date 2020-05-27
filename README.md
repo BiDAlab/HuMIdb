@@ -1,4 +1,4 @@
-# BeCAPTCHA-Mouse Benchmark 
+# HuMIdb dataset (Human Mobile Interaction database)
 BeCAPTCHA-Mouse Benchmark for development of bot detection technologyes based on mouse dynamics.
 
 ## INSTRUCTIONS FOR DOWNLOADING BeCAPTCHA-Mouse Benchmark
