@@ -24,12 +24,13 @@ HuMIdb dataset, a novel multimodal mobile database that comprises more than 5 GB
 ## DESCRIPTION OF HuMIdb DATASET
 The dataset includes 14 sensors (see Table 1 for the details) during natural human-mobile interaction performed by more than 600 users. For the acquisition, we implemented an Android application that collects the sensor signals while the users complete 8 simple tasks with their own smartphones and without any supervision whatsoever (i.e., the users could be standing, sitting, walking, indoors, outdoors, at daytime or night, etc.). The acquisition app was launched on Google Play Store and advertised in our research web site and various research mailing lists. After that, the participants were self-selected around the globe producing more varied participants than previous state-of-the-art mobile databases. All data captured in this database have been stored in private servers and anonymized with previous participant consent according to the GDPR (General Data Protection Regulation).
 
-[](https://github.com/BiDAlab/HuMIdb/blob/master/Table_1.png)
+![](https://github.com/BiDAlab/HuMIdb/blob/master/Table_1.png)
 Table 1. Description of all sensor signals captured in HuMIdb. E=Event-based acquisition. The timestamp parameter is captured for all sensors.
 
 Fig. 1 shows all tasks included in the HuMIdb. The task *a* s designed to acquire keystroking from fixed and free text. In tasks *b* and *d*, the users have to perform both swipe up and swipe down gestures to complete both tasks, meanwhile the task *c* is focused on tap gestures. Tasks *e* and *f* are designed to draw in the air with the smartphone a circle and a cross respectively. Task *g* records the user saying *‘I am not a robot’*, and finally, in task *h* the user has to draw with the finger the digits 0 to 9 over the touchscreen. Note that the 14 sensors available (see Table 1) are acquired during the execution of all tasks, although some sensors present a key role in some of them. For example, the accelerometer signal is captured during the entire session even though it could be more relevant in tasks *e* and *f*. This heterogeneous information can be used to improve the patterns obtained from the main sensor for each task. Additionally, all tasks have a right swipe button that is acquired in addition to the swipe patterns. 
 
 ![](https://github.com/BiDAlab/HuMIdb/blob/master/Figure_1.png)
+
 Figure 1. The mobile interfaces designed for the 8 mobile HuMI tasks: *a*) keystroking, *b*) swipe up, *c*) tap and double tap, *d*) swipe down, *e*) circle hand gesture, *f*) cross hand gesture, *g*) voice, and *h*) finger handwriting.
 
 
