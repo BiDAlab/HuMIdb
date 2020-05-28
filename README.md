@@ -38,8 +38,6 @@ Figure 1. The mobile interfaces designed for the 8 mobile HuMI tasks: *a*) keyst
 The acquisition protocol comprises 5 sessions with at least 1 day gap among them. It is important to highlight that in all sessions, the 1-day gap refers to the minimum time between one user ﬁnishes a session and the next time the app allows to have the next session. At the beginning of each task, the app shows a brief pop-up message explaining the procedure to complete each task. The application also captures the orientation (landscape/portrait) of the smartphone, the screen size, resolution, the model of the device, and the date when the session was captured.
 
 Regarding the age distribution, 25.6% of the users were younger than 20 years old, 49.4% are between 20 and 30 years old, 19.2% between 30 and 50 years old, and the remaining 5.8% are older than 50 years old. Regarding the gender, 66.5% of the participants were males, 32.8% females, and 0.7% others. Participants performed the tasks from 14 different countries (52.2%/47.0%/0.8% are European, American, and Asian respectively) using 179 different devices.
-Fig. 1 shows an example of the handwriting task (for digit “5”) and the information collected during the task. Note how a simple task can generate a heterogeneous flow of information related with the user behavior: the way the user holds the device, the power and velocity of the gesture, the place, etc.
-
 Fig. 2 shows an example of the handwriting task (for digit “5”) and the information collected during the task. Note how a simple task can generate a heterogeneous flow of information related with the user behavior: the way the user holds the device, the power and velocity of the gesture, the place, etc.
 
 ![](https://github.com/BiDAlab/HuMIdb/blob/master/Figure_2.png)  
@@ -52,27 +50,46 @@ THe structure of HuMIDV is described in Figure 3; the data is stored in nested f
 Figure 3. Structure of the nested folders of HuMi database: User→ Sessions→ Tasks→ Sensors.
 
 #### FILES FORMAT
-+ .txt files: it just contains two columns with the **{x̂, ŷ}** mouse coordinates.
-  + COLUMN 1: represents the **x̂** coordinate.
++ info.json file: it contains information related to the smartphone used. ScreenWidth, screenHeight, numberWidth, numberHeight, mac, lenguage, mail, gender, age, num_session (completed), time_session1, time_session2, time_session3, time_session4, time_session5, model.
 
-  + COLUMN 2: represents the **ŷ** coordinate.
++ bluetooh.csv files:  
 
-+ .ana files: each row contains a log-normal signal extracted from the synthetic mouse trayectory, this log-normal signal is definded by 6 parameters. One parameter in each column:  
+  + COLUMN 1: represents the timestamp in miliseconds.
 
-  + COLUMN 1: represents the *D* parameter.
+  + COLUMN 2: represents the name of the bluetooth transmitter.
 
-  + COLUMN 2: represents the *t<sub>0</sub>* parameter.
+  + COLUMN 3: represents the MAC.
 
-  + COLUMN 3: represents the *μ* parameter.
++ gps.csv files:  
 
-  + COLUMN 4: represents the *σ* parameter.
+  + COLUMN 1: represents the timestamp in miliseconds.
 
-  + COLUMNS 5 : represents the *θ<sub>s</sub>* parameter.
+  + COLUMN 2: represents the orientation.
+
+  + COLUMN 3: represents the latitude.  
   
-  + COLUMNS 6 : represents the *θ<sub>e</sub>* parameter.
+  + COLUMN 4: represents the longitude.
+
+  + COLUMN 5: represents the altitude.
+
+  + COLUMN 6: represents the bearing.
+
+  + COLUMN 7: accuracy.
   
-  + COLUMNS 7, 8: are zeros.
++ wifi.csv files:  
+
+  + COLUMN 1: represents the timestamp in miliseconds.
+
+  + COLUMN 2: represents the name.
+
+  + COLUMN 3: represents the level.  
   
+  + COLUMN 4: represents the info.
+
+  + COLUMN 5: represents the chanel.
+
+  + COLUMN 6: represents the frequency.
+
 
 #### FILES NOMENCLATURE
 The nomenclature followed to name the files of the function-based method is: NNNN_y=A_vp=B_task=C.txt
