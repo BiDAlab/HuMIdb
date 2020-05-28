@@ -196,7 +196,7 @@ Figure 3. Structure of the nested folders of HuMi database: User→ Sessions→ 
 
   + COLUMN 1: represents the timestamp in miliseconds.
 
-  + COLUMN 2: represents the field text where was typed(N= name, S= surname, A= age, T= text).
+  + COLUMN 2: represents the entry field where it was typed (N= name, S= surname, A= age, T= text). (See Fig. 1 task *a* for details)
 
   + COLUMN 3: represents the temperature data.
   
