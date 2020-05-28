@@ -7,7 +7,7 @@ HuMIdb dataset is a novel multimodal mobile database that comprises more than 5 
  
 2) Send an email to **atvs@uam.es**, as follows:
 
-   *Subject:* **[DATABASE: HuMIdb dataset]**
+   *Subject:* **[DATABASE: HuMIdb database]**
 
    Body: Your name, e-mail, telephone number, organization, postal mail, purpose for which you will use the database, time and date at which you sent the email with the signed license agreement.
  
@@ -42,7 +42,7 @@ Fig. 2 shows an example of the handwriting task (for digit “5”) and the info
 Figure 2. Full set of data generated during one of the HuMIdb task.
 
 #### HuMIdb STRUCTURE
-THe structure of HuMIdb is described in Figure 3; the data is stored in nested folders with the MAC number to identify each user´s folder. Inside the user´s folder, there are between 1 and 5 folders corresponding to the different sessions the user has completed and 3 CSV files with the Bluetooth, WiFi and GPS data signals acquired during the entire session. Finally, in each session there are one folder for each task that contains all sensors captured during the task. The *'swipe.csv'* file corresponds to the right swipe button.
+The structure of HuMIdb is described in Figure 3; the data is stored in nested folders with the MAC number to identify each user´s folder. Inside the user´s folder, there are between 1 and 5 folders corresponding to the different sessions the user has completed and 3 CSV files with the Bluetooth, WiFi and GPS data signals acquired during the entire session. Finally, in each session there are one folder for each task that contains all sensors captured during the task. The *'swipe.csv'* file corresponds to the right swipe button.
 
 ![](https://github.com/BiDAlab/HuMIdb/blob/master/Figure_3.png)  
 Figure 3. Structure of the nested folders of HuMi database: User→ Sessions→ Tasks→ Sensors.
