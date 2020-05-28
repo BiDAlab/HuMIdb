@@ -120,7 +120,7 @@ Figure 3. Structure of the nested folders of HuMi database: User→ Sessions→ 
 
   + COLUMN 3: represents the x axis data of the gyroscope.  
   
-  + COLUMN 4: represents the y acis data of the gyroscope.
+  + COLUMN 4: represents the y axis data of the gyroscope.
   
   + COLUMN 5: represents the z axis data of the gyroscope.
   
@@ -140,7 +140,7 @@ Figure 3. Structure of the nested folders of HuMi database: User→ Sessions→ 
 
   + COLUMN 3: represents the x axis data of the linear accelerometer.  
   
-  + COLUMN 4: represents the y acis data of the linear accelerometer.
+  + COLUMN 4: represents the y axis data of the linear accelerometer.
   
   + COLUMN 5: represents the z axis data of the linear accelerometer.
   
@@ -160,7 +160,7 @@ Figure 3. Structure of the nested folders of HuMi database: User→ Sessions→ 
 
   + COLUMN 3: represents the x axis data of the magnetometer.  
   
-  + COLUMN 4: represents the y acis data of the magnetometer.
+  + COLUMN 4: represents the y axis data of the magnetometer.
   
   + COLUMN 5: represents the z axis data of the magnetometer.
   
@@ -172,7 +172,7 @@ Figure 3. Structure of the nested folders of HuMi database: User→ Sessions→ 
 
   + COLUMN 3: represents the x axis data of the accelerometer.  
   
-  + COLUMN 4: represents the y acis data of the accelerometer.
+  + COLUMN 4: represents the y axis data of the accelerometer.
   
   + COLUMN 5: represents the z axis data of the accelerometer.
   
