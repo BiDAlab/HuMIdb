@@ -90,31 +90,6 @@ Figure 3. Structure of the nested folders of HuMi database: User→ Sessions→ 
 
   + COLUMN 6: represents the frequency.
 
-
-#### FILES NOMENCLATURE
-The nomenclature followed to name the files of the function-based method is: NNNN_y=A_vp=B_task=C.txt
-
-+ NNNN: indicates the number of the sample.
-
-+ A: indicates the shape of the trajectory:
-
-  + 0 = linear.
-  
-  + 1 = quadratic.
-  
-  + 2 = exponential.
-  
-+ B: indicates the velocity profile:
-
-  + 0 = constant velocity.
-  
-  + 1 = logarithmic velocity.
-  
-  + 2 = Gaussian velocity.
-  
-  
-+ C: indicates the task (1-8) of the human mouse database in which the trayectory was synthetized. This is necessary because the function-based method needs the initial [*x̂<sub>1</sub>, ŷ<sub>1</sub>*] and the end [*x̂<sub>M</sub>, ŷ<sub>M</sub>*] points of the human trayectory to synthetyse.
-.
 #### REFERENCES
 For further information on the benchmark and on different applications where it has been used, we refer the reader to (all these articles are publicly available in the [publications](http://atvs.ii.uam.es/atvs/listpublications.do) section of the BiDA group webpage).
 
