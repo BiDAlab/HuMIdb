@@ -1,5 +1,5 @@
 # HuMIdb dataset (Human Mobile Interaction database)
-HuMIdb dataset, a novel multimodal mobile database that comprises more than 5 GB from a wide range of mobile sensors acquired under unsupervised scenario.
+HuMIdb dataset is a novel multimodal mobile database that comprises more than 5 GB from a wide range of mobile sensors acquired under unsupervised scenario.
 
 ## INSTRUCTIONS FOR DOWNLOADING HuMIdb dataset
 1) [Download license agreement](http://atvs.ii.uam.es/atvs/licenses/HuMIdb_license_agreement.pdf), send by email one signed and scanned copy to **atvs@uam.es** according to the instructions given in point 2.
@@ -32,8 +32,6 @@ Fig. 1 shows all tasks included in the HuMIdb. The task *a* is designed to acqui
 ![](https://github.com/BiDAlab/HuMIdb/blob/master/Figure_1.png)
 
 Figure 1. The mobile interfaces designed for the 8 mobile HuMI tasks: *a*) keystroking, *b*) swipe up, *c*) tap and double tap, *d*) swipe down, *e*) circle hand gesture, *f*) cross hand gesture, *g*) voice, and *h*) finger handwriting.
-
-
 
 The acquisition protocol comprises 5 sessions with at least 1 day gap among them. It is important to highlight that in all sessions, the 1-day gap refers to the minimum time between one user ﬁnishes a session and the next time the app allows to have the next session. At the beginning of each task, the app shows a brief pop-up message explaining the procedure to complete each task. The application also captures the orientation (landscape/portrait) of the smartphone, the screen size, resolution, the model of the device, and the date when the session was captured.
 
