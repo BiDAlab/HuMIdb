@@ -192,6 +192,14 @@ Figure 3. Structure of the nested folders of HuMi database: User→ Sessions→ 
 
   + COLUMN 3: represents the temperature data.
   
++ key_data.csv files:
+
+  + COLUMN 1: represents the timestamp in miliseconds.
+
+  + COLUMN 2: represents the field text where was typed(N= name, S= surname, A= age, T= text).
+
+  + COLUMN 3: represents the temperature data.
+  
 #### REFERENCES
 For further information on the benchmark and on different applications where it has been used, we refer the reader to (all these articles are publicly available in the [publications](http://atvs.ii.uam.es/atvs/listpublications.do) section of the BiDA group webpage).
 
