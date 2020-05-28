@@ -1,5 +1,5 @@
 # HuMIdb database (Human Mobile Interaction database)
-HuMIdb dataset is a novel multimodal mobile database that comprises more than 5 GB from a wide range of mobile sensors acquired under unsupervised scenario.
+HuMIdb is a novel multimodal mobile database that comprises more than 5 GB from a wide range of mobile sensors acquired under unsupervised scenario.
 
 ## INSTRUCTIONS FOR DOWNLOADING HuMIdb dataset
 1) [Download license agreement](http://atvs.ii.uam.es/atvs/licenses/HuMIdb_license_agreement.pdf), send by email one signed and scanned copy to **atvs@uam.es** according to the instructions given in point 2.
