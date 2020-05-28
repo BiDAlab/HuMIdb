@@ -44,7 +44,7 @@ Fig. 2 shows an example of the handwriting task (for digit “5”) and the info
 Figure 2. Full set of data generated during one of the HuMIdb task.
 
 #### HuMIdb STRUCTURE
-THe structure of HuMIDV is described in Figure 3; the data is stored in nested folders with the MAC number to identify each user´s folder. Inside the user´s folder, there are between 1 and 5 folders corresponding to the different sessions the user has completed and 3 CSV files with the Bluetooth, WiFi and GPS data signals acquired during the entire session. Finally, in each session there are one folder for each task that contains all sensors captured during the task.
+THe structure of HuMIdb is described in Figure 3; the data is stored in nested folders with the MAC number to identify each user´s folder. Inside the user´s folder, there are between 1 and 5 folders corresponding to the different sessions the user has completed and 3 CSV files with the Bluetooth, WiFi and GPS data signals acquired during the entire session. Finally, in each session there are one folder for each task that contains all sensors captured during the task. The *'swipe.csv'* file corresponds to the right swipe button.
 
 ![](https://github.com/BiDAlab/HuMIdb/blob/master/Figure_3.png)  
 Figure 3. Structure of the nested folders of HuMi database: User→ Sessions→ Tasks→ Sensors.
@@ -64,7 +64,7 @@ Figure 3. Structure of the nested folders of HuMi database: User→ Sessions→ 
 
   + COLUMN 1: represents the timestamp in miliseconds.
 
-  + COLUMN 2: represents the orientation.
+  + COLUMN 2: represents the orientation (portrait= 1, landscape= 0).
 
   + COLUMN 3: represents the latitude.  
   
@@ -89,7 +89,110 @@ Figure 3. Structure of the nested folders of HuMi database: User→ Sessions→ 
   + COLUMN 5: represents the chanel.
 
   + COLUMN 6: represents the frequency.
+  
++ micro.3gp files: audio data.
 
++ Touch gesture files (swipe.csv, f_X_touch.csv, scroll_X_touch.csv, and touch_touch.csv):
+
+  + COLUMN 1: represents the timestamp in miliseconds.
+
+  + COLUMN 2: represents the orientation (portrait= 1, landscape= 0).
+
+  + COLUMN 3: represents the x coordinate data.  
+  
+  + COLUMN 4: represents the y coordinate data.
+
+  + COLUMN 5: represents the pressure.
+
+  + COLUMN 6: represents the action (finger_down= 0, movement= 2, finger_up= 1).
+  
++ sensor_grav.csv files:
+
+  + COLUMN 1: represents the timestamp in miliseconds.
+
+  + COLUMN 2: represents the orientation (portrait= 1, landscape= 0).
+
+  + COLUMN 3: represents the gravity data.
+  
++ sensor_gyro.csv files:
+
+  + COLUMN 1: represents the timestamp in miliseconds.
+
+  + COLUMN 2: represents the orientation (portrait= 1, landscape= 0).
+
+  + COLUMN 3: represents the x axis data of the gyroscope.  
+  
+  + COLUMN 4: represents the y acis data of the gyroscope.
+  
+  + COLUMN 5: represents the z axis data of the gyroscope.
+  
++ sensor_humd.csv files:
+
+  + COLUMN 1: represents the timestamp in miliseconds.
+
+  + COLUMN 2: represents the orientation (portrait= 1, landscape= 0).
+
+  + COLUMN 3: represents the humidity data.  
+  
++ sensor_lacc.csv files:
+
+  + COLUMN 1: represents the timestamp in miliseconds.
+
+  + COLUMN 2: represents the orientation (portrait= 1, landscape= 0).
+
+  + COLUMN 3: represents the x axis data of the linear accelerometer.  
+  
+  + COLUMN 4: represents the y acis data of the linear accelerometer.
+  
+  + COLUMN 5: represents the z axis data of the linear accelerometer.
+  
++ sensor_ligh.csv files:
+
+  + COLUMN 1: represents the timestamp in miliseconds.
+
+  + COLUMN 2: represents the orientation (portrait= 1, landscape= 0).
+
+  + COLUMN 3: represents the light level data.
+  
++ sensor_magn.csv files:
+
+  + COLUMN 1: represents the timestamp in miliseconds.
+
+  + COLUMN 2: represents the orientation (portrait= 1, landscape= 0).
+
+  + COLUMN 3: represents the x axis data of the magnetometer.  
+  
+  + COLUMN 4: represents the y acis data of the magnetometer.
+  
+  + COLUMN 5: represents the z axis data of the magnetometer.
+  
++ sensor_nacc.csv files:
+
+  + COLUMN 1: represents the timestamp in miliseconds.
+
+  + COLUMN 2: represents the orientation (portrait= 1, landscape= 0).
+
+  + COLUMN 3: represents the x axis data of the accelerometer.  
+  
+  + COLUMN 4: represents the y acis data of the accelerometer.
+  
+  + COLUMN 5: represents the z axis data of the accelerometer.
+  
++ sensor_prox.csv files:
+
+  + COLUMN 1: represents the timestamp in miliseconds.
+
+  + COLUMN 2: represents the orientation (portrait= 1, landscape= 0).
+
+  + COLUMN 3: represents the proximity level data.
+
++ sensor_temp.csv files:
+
+  + COLUMN 1: represents the timestamp in miliseconds.
+
+  + COLUMN 2: represents the orientation (portrait= 1, landscape= 0).
+
+  + COLUMN 3: represents the temperature data.
 #### REFERENCES
 For further information on the benchmark and on different applications where it has been used, we refer the reader to (all these articles are publicly available in the [publications](http://atvs.ii.uam.es/atvs/listpublications.do) section of the BiDA group webpage).
 
