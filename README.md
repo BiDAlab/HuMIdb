@@ -1,4 +1,4 @@
-# HuMIdb dataset (Human Mobile Interaction database)
+# HuMIdb database (Human Mobile Interaction database)
 HuMIdb dataset is a novel multimodal mobile database that comprises more than 5 GB from a wide range of mobile sensors acquired under unsupervised scenario.
 
 ## INSTRUCTIONS FOR DOWNLOADING HuMIdb dataset
@@ -15,13 +15,13 @@ HuMIdb dataset is a novel multimodal mobile database that comprises more than 5 
 3) Once the email copy of the license agreement has been received at ATVS, you will receive an email with a username, a password, and a time slot to download the database.
  
 
-4) [Download the DATASET](http://atvs.ii.uam.es/atvs/intranet/HuMIdb), for which you will need to provide the authentication information given in step 4. After you finish the download, please notify by email to **atvs@uam.es** that you have successfully completed the transaction.
+4) [Download the DATASEBASE](http://atvs.ii.uam.es/atvs/intranet/HuMIdb), for which you will need to provide the authentication information given in step 4. After you finish the download, please notify by email to **atvs@uam.es** that you have successfully completed the transaction.
  
 
 5) For more information, please contact: **atvs@uam.es**
 
 
-## DESCRIPTION OF HuMIdb DATASET
+## DESCRIPTION OF HuMIdb DATABASE
 The dataset includes 14 sensors (see Table 1 for the details) during natural human-mobile interaction performed by more than 600 users. For the acquisition, we implemented an Android application that collects the sensor signals while the users complete 8 simple tasks with their own smartphones and without any supervision whatsoever (i.e., the users could be standing, sitting, walking, indoors, outdoors, at daytime or night, etc.). The acquisition app was launched on Google Play Store and advertised in our research web site and various research mailing lists. After that, the participants were self-selected around the globe producing more varied participants than previous state-of-the-art mobile databases. All data captured in this database have been stored in private servers and anonymized with previous participant consent according to the GDPR (General Data Protection Regulation).
 
 ![](https://github.com/BiDAlab/HuMIdb/blob/master/Table_1.png)  
