@@ -198,7 +198,7 @@ Figure 3. Structure of the nested folders of HuMi database: User→ Sessions→ 
 
   + COLUMN 2: represents the entry field where it was typed (N= name, S= surname, A= age, T= text). (See Fig. 1 task *a* for details)
 
-  + COLUMN 3: represents the temperature data.
+  + COLUMN 3: represents the ASCII code of the key typed.
   
 #### REFERENCES
 For further information on the benchmark and on different applications where it has been used, we refer the reader to (all these articles are publicly available in the [publications](http://atvs.ii.uam.es/atvs/listpublications.do) section of the BiDA group webpage).
