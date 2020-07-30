@@ -44,7 +44,7 @@ Figure 2. Full set of data generated during one of the HuMIdb task.
 #### HuMIdb STRUCTURE
 The structure of HuMIdb is described in Figure 3; the data is stored in nested folders with the ID number to identify each user´s folder. Inside the user´s folder, there are between 1 and 5 folders corresponding to the different sessions the user has completed and 3 CSV files with the Bluetooth, WiFi and GPS data signals acquired during the entire session. Finally, in each session there are one folder for each task that contains all sensors captured during the task. The *'swipe.csv'* file corresponds to the right swipe button.
 
-![](https://github.com/BiDAlab/HuMIdb/blob/master/Figure_3(1).png)  
+![](https://github.com/BiDAlab/HuMIdb/blob/master/Figure_3.png)  
 Figure 3. Structure of the nested folders of HuMi database: User→ Sessions→ Tasks→ Sensors.
 
 #### FILES FORMAT
