@@ -88,7 +88,7 @@ Figure 3. Structure of the nested folders of HuMi database: User→ Sessions→ 
 
   + COLUMN 6: represents the frequency.
   
-+ micro.3gp files: audio data.
++ micro.3gp files: audio data. **[Note: The audio data is not avialable yet.]**
 
 + Touch gesture files (swipe.csv, f_X_touch.csv, scroll_X_touch.csv, and touch_touch.csv):
 
