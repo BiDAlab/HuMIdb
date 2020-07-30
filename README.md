@@ -203,8 +203,8 @@ Figure 3. Structure of the nested folders of HuMi database: User→ Sessions→ 
 #### REFERENCES
 For further information on the benchmark and on different applications where it has been used, we refer the reader to (all these articles are publicly available in the [publications](http://atvs.ii.uam.es/atvs/listpublications.do) section of the BiDA group webpage).
 
-+ [1] A. Acien, A. Morales, J. Fierrez, R. Vera-Rodriguez, O. Delgado-Mohatar, "BeCAPTCHA: Bot Detection in Smartphone Interaction using Touchscreen Biometrics and Mobile Sensors", In *AAAI Workshop on Artificial for Cyber Security (AICS)*, Feb. 2020. [[pdf](https://arxiv.org/ftp/arxiv/papers/2005/2005.13655.pdf)]
++ [1] A. Acien, A. Morales, J. Fierrez, R. Vera-Rodriguez, O. Delgado-Mohatar, "BeCAPTCHA: Bot Detection in Smartphone Interaction using Touchscreen Biometrics and Mobile Sensors", . [[pdf](https://arxiv.org/ftp/arxiv/papers/2005/2005.13655.pdf)]
 
-+ [2] A. Acien, A. Morales, J. Fierrez, R. Vera-Rodriguez, Ivan Bartolome, "BeCAPTCHA: Detecting Human Behavior in Smartphone Interaction using Multiple Inbuilt Sensors", *arXiv:2002.00918*, 2020. [[pdf](https://arxiv.org/ftp/arxiv/papers/2002/2002.00918.pdf)]
++ [2] A. Acien, A. Morales, J. Fierrez, R. Vera-Rodriguez, Ivan Bartolome, "BeCAPTCHA: Detecting Human Behavior in Smartphone Interaction using Multiple Inbuilt Sensors", In *AAAI Workshop on Artificial for Cyber Security (AICS)*, Feb. 2020. [[pdf](https://arxiv.org/ftp/arxiv/papers/2002/2002.00918.pdf)]
 
 Please remember to reference article [1] on any work made public, whatever the form, based directly or indirectly on any part of the HuMI database.
