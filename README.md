@@ -2,7 +2,7 @@
 HuMIdb is a novel multimodal mobile database that comprises more than 5 GB from a wide range of mobile sensors acquired under unsupervised scenario.
 
 ## INSTRUCTIONS FOR DOWNLOADING HuMIdb database
-1) [Download license agreement](http://atvs.ii.uam.es/atvs/licenses/HuMidb_License_Agreement.pdf), send by email one signed and scanned copy to **atvs@uam.es** according to the instructions given in point 2.
+1) [Download license agreement](https://bidalab.eps.uam.es/static/licenses/HuMidb_License_Agreement.pdf), send by email one signed and scanned copy to **atvs@uam.es** according to the instructions given in point 2.
  
  
 2) Send an email to **atvs@uam.es**, as follows:
@@ -15,7 +15,7 @@ HuMIdb is a novel multimodal mobile database that comprises more than 5 GB from 
 3) Once the email copy of the license agreement has been received at ATVS, you will receive an email with a username, a password, and a time slot to download the database.
  
 
-4) [Download the DATABASE](http://atvs.ii.uam.es/atvs/intranet/free_DB/HuMIDB/), for which you will need to provide the authentication information given in step 2. After you finish the download, please notify by email to **atvs@uam.es** that you have successfully completed the transaction.
+4) [Download the DATABASE](https://bidalab.eps.uam.es/listdatabases?id=HuMidb#page), for which you will need to provide the authentication information given in step 2. After you finish the download, please notify by email to **atvs@uam.es** that you have successfully completed the transaction.
  
 
 5) For more information, please contact: **atvs@uam.es**
