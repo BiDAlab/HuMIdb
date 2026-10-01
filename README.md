@@ -3,7 +3,7 @@ HuMIdb is a novel multimodal mobile database that comprises more than 5 GB from 
 
 ## INSTRUCTIONS FOR DOWNLOADING HuMIdb database
 
-**INPORTANT: the agrement must be signed by a permanent member of a research institution and submitted from an offcial email account of the institution. Agreement signed by students are not valid.**
+**IMPORTANT: the agrement must be signed by a permanent member of a research institution and submitted from an offcial email account of the institution. Agreement signed by students are not valid.**
 
 1) [Download license agreement](https://bidalab.eps.uam.es/static/licenses/HuMidb_License_Agreement.pdf), send by email one signed and scanned copy to **atvs@uam.es** according to the instructions given in point 2.
  
